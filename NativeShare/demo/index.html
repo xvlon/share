@@ -15,10 +15,13 @@
             -webkit-box-align: center;
             -ms-flex-align: center;
             align-items: center;
-			justify-content: center;
+			      justify-content: center;
+            background: #fff;
         }
 		.fx{
 			margin: auto;
+      display: inline-block;
+      padding: 0 .2rem;
 		}
     </style>
 </head>
@@ -26,11 +29,11 @@
 <body>
     <div>
         <div class="fx" onclick="call()">点击分享</div>
-        <!--<button onclick="call('wechatFriend')">微信好友</button>
-        <button onclick="call('wechatTimeline')">朋友圈</button>
-        <button onclick="call('qqFriend')">QQ</button>
-        <button onclick="call('qZone')">QQ空间</button>
-        <button onclick="call('weibo')">微博</button>-->
+        <div class="fx" onclick="call('wechatFriend')">微信好友</div>
+        <div class="fx" onclick="call('wechatTimeline')">朋友圈</div>
+        <div class="fx" onclick="call('qqFriend')">QQ</div>
+        <div class="fx" onclick="call('qZone')">QQ空间</div>
+        <div class="fx" onclick="call('weibo')">微博</div>
     </div>
     <script type="text/javascript" src="../NativeShare.js"></script>
     <script>
